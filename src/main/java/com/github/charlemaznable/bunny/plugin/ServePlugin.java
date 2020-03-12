@@ -7,9 +7,11 @@ import java.util.Map;
 
 public interface ServePlugin {
 
-    void serve(Map<String, Object> request,
+    void serve(Map<String, Object> context,
+               Map<String, Object> request,
                Handler<AsyncResult<Map<String, Object>>> handler);
 
-    void checkResponse(Map<String, Object> response,
+    void checkResponse(Map<String, Object> context,
+                       Map<String, Object> response,
                        Handler<AsyncResult<Boolean>> handler);
 }

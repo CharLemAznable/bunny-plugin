@@ -7,6 +7,7 @@ import java.util.Map;
 
 public interface CalculatePlugin {
 
-    void calculate(Map<String, Object> chargingParameters,
+    void calculate(Map<String, Object> context,
+                   Map<String, Object> chargingParameters,
                    Handler<AsyncResult<CalculateResult>> handler);
 }
