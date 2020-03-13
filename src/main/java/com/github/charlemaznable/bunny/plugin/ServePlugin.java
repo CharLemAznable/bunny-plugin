@@ -13,5 +13,5 @@ public interface ServePlugin {
 
     void checkResponse(Map<String, Object> context,
                        Map<String, Object> response,
-                       Handler<AsyncResult<Boolean>> handler);
+                       Handler<AsyncResult<Integer>> handler);
 }

@@ -9,5 +9,5 @@ public interface ServeCallbackPlugin {
 
     void checkRequest(Map<String, Object> context,
                       Map<String, Object> request,
-                      Handler<AsyncResult<Boolean>> handler);
+                      Handler<AsyncResult<Integer>> handler);
 }
