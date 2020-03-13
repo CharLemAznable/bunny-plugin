@@ -7,7 +7,7 @@ import java.util.Map;
 
 public interface ServePlugin {
 
-    void serve(Map<String, Object> context,
+    void serve(Map<String, Object> context, String seqId,
                Map<String, Object> request,
                Handler<AsyncResult<Map<String, Object>>> handler);
 
