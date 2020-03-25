@@ -30,6 +30,6 @@ with baby lambs across sunny green meadows.
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>bunny-plugin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
 </dependency>
 ```
