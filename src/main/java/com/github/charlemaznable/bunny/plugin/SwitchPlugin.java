@@ -6,11 +6,11 @@ import io.vertx.core.Handler;
 
 import java.util.Map;
 
-public interface ServeSwitchPlugin {
+public interface SwitchPlugin {
 
-    default void switchDeduct(Map<String, Object> context,
-                              Map<String, Object> request,
-                              Handler<AsyncResult<Boolean>> handler) {
+    default void serveDeduct(Map<String, Object> context,
+                             Map<String, Object> request,
+                             Handler<AsyncResult<Boolean>> handler) {
         handler.handle(Future.succeededFuture(true));
     }
 }
