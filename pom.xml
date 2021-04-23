@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>complex-dependencies</artifactId>
-        <version>0.5.1-SNAPSHOT</version>
+        <version>0.5.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>bunny-plugin</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Bunny Plugin</name>
@@ -25,7 +25,7 @@
     </scm>
 
     <properties>
-        <bunny-client.version>0.1.1-SNAPSHOT</bunny-client.version>
+        <bunny-client.version>0.1.2-SNAPSHOT</bunny-client.version>
     </properties>
 
     <dependencies>
@@ -44,12 +44,6 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.charlemaznable</groupId>
-            <artifactId>logback-miner</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
