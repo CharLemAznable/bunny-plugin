@@ -30,16 +30,15 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.bingoohuang</groupId>
+            <artifactId>eql</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>bunny-client</artifactId>
             <version>${bunny-client.version}</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.bingoohuang</groupId>
-            <artifactId>eql</artifactId>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
