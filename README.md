@@ -20,7 +20,7 @@ with baby lambs across sunny green meadows.
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>bunny-plugin</artifactId>
-  <version>2022.0.4</version>
+  <version>2022.0.5</version>
 </dependency>
 ```
 
@@ -30,6 +30,6 @@ with baby lambs across sunny green meadows.
 <dependency>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>bunny-plugin</artifactId>
-  <version>2022.0.5-SNAPSHOT</version>
+  <version>2022.0.6-SNAPSHOT</version>
 </dependency>
 ```
